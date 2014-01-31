@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B744555189C022F00EC3AFA /* JGAAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B744554189C022F00EC3AFA /* JGAAnimator.m */; };
+		7B744558189C0DCC00EC3AFA /* JGAImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B744557189C0DCC00EC3AFA /* JGAImageCell.m */; };
+		7B74455A189C0DD800EC3AFA /* JGAImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B744559189C0DD800EC3AFA /* JGAImageCell.xib */; };
 		7BC8DDF2189BE9F400AEFE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8DDF1189BE9F400AEFE2C /* Foundation.framework */; };
 		7BC8DDF4189BE9F400AEFE2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8DDF3189BE9F400AEFE2C /* CoreGraphics.framework */; };
 		7BC8DDF6189BE9F400AEFE2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8DDF5189BE9F400AEFE2C /* UIKit.framework */; };
@@ -19,6 +22,9 @@
 		7BC8DE0D189BE9F400AEFE2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8DDF5189BE9F400AEFE2C /* UIKit.framework */; };
 		7BC8DE15189BE9F400AEFE2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC8DE13189BE9F400AEFE2C /* InfoPlist.strings */; };
 		7BC8DE17189BE9F400AEFE2C /* DynamicPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8DE16189BE9F400AEFE2C /* DynamicPlaygroundTests.m */; };
+		7BC8DE58189BFD5300AEFE2C /* JGARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8DE57189BFD5300AEFE2C /* JGARootViewController.m */; };
+		7BC8DE5B189BFDEF00AEFE2C /* JGADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8DE5A189BFDEF00AEFE2C /* JGADetailViewController.m */; };
+		7BC8DE5D189BFE1900AEFE2C /* JGADetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC8DE5C189BFE1900AEFE2C /* JGADetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B744553189C022F00EC3AFA /* JGAAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAAnimator.h; sourceTree = "<group>"; };
+		7B744554189C022F00EC3AFA /* JGAAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAAnimator.m; sourceTree = "<group>"; };
+		7B744556189C0DCC00EC3AFA /* JGAImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAImageCell.h; sourceTree = "<group>"; };
+		7B744557189C0DCC00EC3AFA /* JGAImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAImageCell.m; sourceTree = "<group>"; };
+		7B744559189C0DD800EC3AFA /* JGAImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGAImageCell.xib; sourceTree = "<group>"; };
 		7BC8DDEE189BE9F400AEFE2C /* DynamicPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC8DDF1189BE9F400AEFE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BC8DDF3189BE9F400AEFE2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +59,11 @@
 		7BC8DE12189BE9F400AEFE2C /* DynamicPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		7BC8DE14189BE9F400AEFE2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BC8DE16189BE9F400AEFE2C /* DynamicPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicPlaygroundTests.m; sourceTree = "<group>"; };
+		7BC8DE56189BFD5300AEFE2C /* JGARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGARootViewController.h; sourceTree = "<group>"; };
+		7BC8DE57189BFD5300AEFE2C /* JGARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGARootViewController.m; sourceTree = "<group>"; };
+		7BC8DE59189BFDEF00AEFE2C /* JGADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGADetailViewController.h; sourceTree = "<group>"; };
+		7BC8DE5A189BFDEF00AEFE2C /* JGADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGADetailViewController.m; sourceTree = "<group>"; };
+		7BC8DE5C189BFE1900AEFE2C /* JGADetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGADetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,16 @@
 			children = (
 				7BC8DE00189BE9F400AEFE2C /* JGAAppDelegate.h */,
 				7BC8DE01189BE9F400AEFE2C /* JGAAppDelegate.m */,
+				7BC8DE56189BFD5300AEFE2C /* JGARootViewController.h */,
+				7BC8DE57189BFD5300AEFE2C /* JGARootViewController.m */,
+				7BC8DE59189BFDEF00AEFE2C /* JGADetailViewController.h */,
+				7BC8DE5A189BFDEF00AEFE2C /* JGADetailViewController.m */,
+				7BC8DE5C189BFE1900AEFE2C /* JGADetailViewController.xib */,
+				7B744553189C022F00EC3AFA /* JGAAnimator.h */,
+				7B744554189C022F00EC3AFA /* JGAAnimator.m */,
+				7B744556189C0DCC00EC3AFA /* JGAImageCell.h */,
+				7B744557189C0DCC00EC3AFA /* JGAImageCell.m */,
+				7B744559189C0DD800EC3AFA /* JGAImageCell.xib */,
 				7BC8DE03189BE9F400AEFE2C /* Images.xcassets */,
 				7BC8DDF8189BE9F400AEFE2C /* Supporting Files */,
 			);
@@ -220,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC8DE5D189BFE1900AEFE2C /* JGADetailViewController.xib in Resources */,
 				7BC8DDFC189BE9F400AEFE2C /* InfoPlist.strings in Resources */,
+				7B74455A189C0DD800EC3AFA /* JGAImageCell.xib in Resources */,
 				7BC8DE04189BE9F400AEFE2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B744558189C0DCC00EC3AFA /* JGAImageCell.m in Sources */,
+				7BC8DE5B189BFDEF00AEFE2C /* JGADetailViewController.m in Sources */,
 				7BC8DDFE189BE9F400AEFE2C /* main.m in Sources */,
+				7BC8DE58189BFD5300AEFE2C /* JGARootViewController.m in Sources */,
+				7B744555189C022F00EC3AFA /* JGAAnimator.m in Sources */,
 				7BC8DE02189BE9F400AEFE2C /* JGAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +476,7 @@
 				7BC8DE1C189BE9F400AEFE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC8DE1D189BE9F400AEFE2C /* Build configuration list for PBXNativeTarget "DynamicPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +485,7 @@
 				7BC8DE1F189BE9F400AEFE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
